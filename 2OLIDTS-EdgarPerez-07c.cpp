@@ -12,9 +12,10 @@ int main()
     int cima = -1;
     int x = 0;
     const int CLAVE = -1;
+
+    std::cout << "Teclea elementos en la pila (termina en -1) \n";
     while (x != CLAVE) {
         std::string entrada;
-        std::cout << "Ingrese el numero en la pila: \n";
         std::cin >> entrada;
         try {
             x = stoi(entrada);// Canvertimos de Cadena a Entero (String to int)
